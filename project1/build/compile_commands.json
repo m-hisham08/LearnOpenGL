@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/hisham/OPENGL/project1/build",
+  "command": "/usr/bin/c++  -I/home/hisham/OPENGL/project1/src -g -std=gnu++11 -o CMakeFiles/OpenGLProject.dir/src/main.cpp.o -c /home/hisham/OPENGL/project1/src/main.cpp",
+  "file": "/home/hisham/OPENGL/project1/src/main.cpp"
+},
+{
+  "directory": "/home/hisham/OPENGL/project1/build",
+  "command": "/usr/bin/c++  -I/home/hisham/OPENGL/project1/src -g -std=gnu++11 -o CMakeFiles/OpenGLProject.dir/src/Shader.cpp.o -c /home/hisham/OPENGL/project1/src/Shader.cpp",
+  "file": "/home/hisham/OPENGL/project1/src/Shader.cpp"
+}
+]
