@@ -69,35 +69,51 @@ include CMakeFiles/SampleProject.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SampleProject.dir/flags.make
 
-CMakeFiles/SampleProject.dir/main.cpp.o: CMakeFiles/SampleProject.dir/flags.make
-CMakeFiles/SampleProject.dir/main.cpp.o: ../main.cpp
-CMakeFiles/SampleProject.dir/main.cpp.o: CMakeFiles/SampleProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hisham/OPENGL/project2/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SampleProject.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SampleProject.dir/main.cpp.o -MF CMakeFiles/SampleProject.dir/main.cpp.o.d -o CMakeFiles/SampleProject.dir/main.cpp.o -c /home/hisham/OPENGL/project2/main.cpp
+CMakeFiles/SampleProject.dir/src/main.cpp.o: CMakeFiles/SampleProject.dir/flags.make
+CMakeFiles/SampleProject.dir/src/main.cpp.o: ../src/main.cpp
+CMakeFiles/SampleProject.dir/src/main.cpp.o: CMakeFiles/SampleProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hisham/OPENGL/project2/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SampleProject.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SampleProject.dir/src/main.cpp.o -MF CMakeFiles/SampleProject.dir/src/main.cpp.o.d -o CMakeFiles/SampleProject.dir/src/main.cpp.o -c /home/hisham/OPENGL/project2/src/main.cpp
 
-CMakeFiles/SampleProject.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SampleProject.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hisham/OPENGL/project2/main.cpp > CMakeFiles/SampleProject.dir/main.cpp.i
+CMakeFiles/SampleProject.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SampleProject.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hisham/OPENGL/project2/src/main.cpp > CMakeFiles/SampleProject.dir/src/main.cpp.i
 
-CMakeFiles/SampleProject.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SampleProject.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hisham/OPENGL/project2/main.cpp -o CMakeFiles/SampleProject.dir/main.cpp.s
+CMakeFiles/SampleProject.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SampleProject.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hisham/OPENGL/project2/src/main.cpp -o CMakeFiles/SampleProject.dir/src/main.cpp.s
+
+CMakeFiles/SampleProject.dir/src/Shader.cpp.o: CMakeFiles/SampleProject.dir/flags.make
+CMakeFiles/SampleProject.dir/src/Shader.cpp.o: ../src/Shader.cpp
+CMakeFiles/SampleProject.dir/src/Shader.cpp.o: CMakeFiles/SampleProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hisham/OPENGL/project2/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SampleProject.dir/src/Shader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SampleProject.dir/src/Shader.cpp.o -MF CMakeFiles/SampleProject.dir/src/Shader.cpp.o.d -o CMakeFiles/SampleProject.dir/src/Shader.cpp.o -c /home/hisham/OPENGL/project2/src/Shader.cpp
+
+CMakeFiles/SampleProject.dir/src/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SampleProject.dir/src/Shader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hisham/OPENGL/project2/src/Shader.cpp > CMakeFiles/SampleProject.dir/src/Shader.cpp.i
+
+CMakeFiles/SampleProject.dir/src/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SampleProject.dir/src/Shader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hisham/OPENGL/project2/src/Shader.cpp -o CMakeFiles/SampleProject.dir/src/Shader.cpp.s
 
 # Object files for target SampleProject
 SampleProject_OBJECTS = \
-"CMakeFiles/SampleProject.dir/main.cpp.o"
+"CMakeFiles/SampleProject.dir/src/main.cpp.o" \
+"CMakeFiles/SampleProject.dir/src/Shader.cpp.o"
 
 # External object files for target SampleProject
 SampleProject_EXTERNAL_OBJECTS =
 
-SampleProject: CMakeFiles/SampleProject.dir/main.cpp.o
+SampleProject: CMakeFiles/SampleProject.dir/src/main.cpp.o
+SampleProject: CMakeFiles/SampleProject.dir/src/Shader.cpp.o
 SampleProject: CMakeFiles/SampleProject.dir/build.make
 SampleProject: /usr/lib/x86_64-linux-gnu/libGL.so
 SampleProject: /usr/lib/x86_64-linux-gnu/libGLU.so
 SampleProject: /usr/lib/x86_64-linux-gnu/libGLEW.so
 SampleProject: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
 SampleProject: CMakeFiles/SampleProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hisham/OPENGL/project2/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SampleProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hisham/OPENGL/project2/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SampleProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SampleProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

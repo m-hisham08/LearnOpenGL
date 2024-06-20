@@ -129,29 +129,53 @@ SampleProject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleProject.dir/build.make CMakeFiles/SampleProject.dir/build
 .PHONY : SampleProject/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/Shader.o: src/Shader.cpp.o
+.PHONY : src/Shader.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleProject.dir/build.make CMakeFiles/SampleProject.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/Shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleProject.dir/build.make CMakeFiles/SampleProject.dir/src/Shader.cpp.o
+.PHONY : src/Shader.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/Shader.i: src/Shader.cpp.i
+.PHONY : src/Shader.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleProject.dir/build.make CMakeFiles/SampleProject.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleProject.dir/build.make CMakeFiles/SampleProject.dir/src/Shader.cpp.i
+.PHONY : src/Shader.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/Shader.s: src/Shader.cpp.s
+.PHONY : src/Shader.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleProject.dir/build.make CMakeFiles/SampleProject.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleProject.dir/build.make CMakeFiles/SampleProject.dir/src/Shader.cpp.s
+.PHONY : src/Shader.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleProject.dir/build.make CMakeFiles/SampleProject.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleProject.dir/build.make CMakeFiles/SampleProject.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleProject.dir/build.make CMakeFiles/SampleProject.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SampleProject"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/Shader.o"
+	@echo "... src/Shader.i"
+	@echo "... src/Shader.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

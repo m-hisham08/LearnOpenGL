@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hisham/OPENGL/project2/main.cpp" "CMakeFiles/SampleProject.dir/main.cpp.o" "gcc" "CMakeFiles/SampleProject.dir/main.cpp.o.d"
+  "/home/hisham/OPENGL/project2/src/Shader.cpp" "CMakeFiles/SampleProject.dir/src/Shader.cpp.o" "gcc" "CMakeFiles/SampleProject.dir/src/Shader.cpp.o.d"
+  "/home/hisham/OPENGL/project2/src/main.cpp" "CMakeFiles/SampleProject.dir/src/main.cpp.o" "gcc" "CMakeFiles/SampleProject.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.
