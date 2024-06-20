@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/hisham/OPENGL/project3/include
+CXX_INCLUDES = -I/home/hisham/OPENGL/project3/include -I/home/hisham/OPENGL/project3/include/stb
 
 CXX_FLAGS = -std=gnu++11
 
