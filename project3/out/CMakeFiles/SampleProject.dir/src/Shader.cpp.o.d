@@ -1,6 +1,6 @@
 CMakeFiles/SampleProject.dir/src/Shader.cpp.o: \
- /home/hisham/OPENGL/project2/src/Shader.cpp /usr/include/stdc-predef.h \
- /home/hisham/OPENGL/project2/include/Shader.h \
+ /home/hisham/OPENGL/project3/src/Shader.cpp /usr/include/stdc-predef.h \
+ /home/hisham/OPENGL/project3/include/Shader.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

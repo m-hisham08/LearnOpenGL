@@ -1,5 +1,5 @@
 CMakeFiles/SampleProject.dir/src/main.cpp.o: \
- /home/hisham/OPENGL/project2/src/main.cpp /usr/include/stdc-predef.h \
+ /home/hisham/OPENGL/project3/src/main.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -145,7 +145,7 @@ CMakeFiles/SampleProject.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc /usr/include/GL/glew.h \
  /usr/include/c++/11/cstddef /usr/include/GL/glu.h /usr/include/GL/gl.h \
- /usr/include/GLFW/glfw3.h /home/hisham/OPENGL/project2/include/Shader.h \
+ /usr/include/GLFW/glfw3.h /home/hisham/OPENGL/project3/include/Shader.h \
  /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
